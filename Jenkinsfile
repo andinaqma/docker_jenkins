@@ -1,6 +1,7 @@
+pipeline { 
   agent any 
   environment { 
-    IMAGE_NAME = 'andinaqma/simple-app' 
+    IMAGE_NAME = 'youruser/simple-app' 
     REGISTRY_CREDENTIALS = 'dockerhub-credentials' 
   } 
   stages { 
